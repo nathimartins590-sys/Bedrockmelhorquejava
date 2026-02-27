@@ -1,2 +1,2 @@
 # Bedrockmelhorquejava
-Comandos do java
+Comandos do java script
