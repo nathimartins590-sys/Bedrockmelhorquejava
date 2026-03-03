@@ -1,6 +1,6 @@
-console.log("batata")
+//const element = document.getElementById('rodape')
+//element.style.color = "green"
 
-const element = document.getElementById('rodape')
-element.style.color = "green"
-
-console.log(element)
+const novoTitulo = document.createElement("h2")
+novoTitulo.textContent = "Eu sempre volto"
+console.log(novoTitulo)
