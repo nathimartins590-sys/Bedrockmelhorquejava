@@ -1,0 +1,34 @@
+Atividade 1
+
+algoritmo
+
+var
+   raio: inteiro
+   perimetro: real
+   inicio
+
+   escreval("digite o raio ")
+   leia(raio)
+   perimetro <- 2 * 3.14159 *raio
+   escreval("o perimetro é ", perimetro ,"cm")
+
+   fimalgoritmo
+
+Atividade 2
+
+algoritmo
+
+var
+    peso: inteiro
+    altura: inteiro
+    IMC: real
+    inicio
+    
+    escreval("digite seu peso")
+    leia(peso)
+    escreval("digite sua altura")
+       leia(altura)
+ IMC<-peso/(altura*altura)
+escreval("IMC", IMC)
+
+fimalgoritmo
