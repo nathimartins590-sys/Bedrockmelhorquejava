@@ -116,14 +116,100 @@ buttonexercicio8.addEventListener('click', () => { exercicio8()})
 // o carinha de escuta - addEventListner
 
 //atividade9
-const nota1 = Number(prompt("digite sua nota"))
-const nota2 = Number(prompt("digite sua segunda nota"))
-const nota3 = Number(prompt("digite sua teceira nota"))
+function exercicio9() {
 
-const media = (nota1+nota2+nota3)/3
+    const nota1 = Number(prompt("digite sua nota"))
+    const nota2 = Number(prompt("digite sua segunda nota"))
+    const nota3 = Number(prompt("digite sua teceira nota"))
+    
+    const media = (nota1+nota2+nota3)/3
+    
+    if(media == 7) {
+         alert("Aprovado")
+    } else if (media <7) {
+          alert("Reprovado")
+     }
+} 
+const buttonexercicio9 = document.getElementById("exercicio9")
+buttonexercicio9.addEventListener('click', () => { exercicio9()})
+// atividade 10
+function exercicio10() {
+    const sexo = prompt("digite seu genero [M-- mulher] ou [H - Hoem]")
+    const altura = Number(prompt("digite sua altura"))
+    
+    // && ||
+    if(sexo === 'M') {
+        // M = 62,1*altura
+        alert("seu peso ideal é")
+        resultado = 62.1*altura
+        alert(resultado)
+    } else if(sexo === 'H') {
+        // H = 72,7*altura
+        alert("seu peso ideal é") 
+        resultado = 72.7*altura
+        alert(resultado)
+    }
+}
+const buttonexercicio10 = document.getElementById("exercicio10")
+buttonexercicio10.addEventListener('click', () => { exercicio10()})
 
-if(media == 7) {
-    alert("Aprovado")
-} else if (media <7) {
-     alert("Reprovado")
+// atividade 11
+function exercicio11() {
+    const numero1 = Number(prompt("digite um numero"))
+const numero2 = Number(prompt("digite outro numero"))
+
+const resultado = (numero1/numero2)
+alert(resultado)
+}
+const buttonexercicio11 = document.getElementById("exercicio11")
+buttonexercicio11.addEventListener('click', () => { exercicio11()})
+
+// atividade 12
+function exercicio12() {
+    const numero = Number(prompt("digite um numero"))
+
+if(numero <0) {
+    alert("seu numero é negativo")
+} else if(numero >0) {
+    alert("seu numero é positivo")
+}
+}
+const buttonexercicio12 = document.getElementById("exercicio12")
+buttonexercicio12.addEventListener('click', () => { exercicio12()})
+
+// atividade 13
+function exercicio13() {
+    // numero = inteiro
+const numero = Number(prompt("digite um numero inteiro"))
+
+const resultado = numero%2
+// 0 = par
+// 1 = impar
+
+if(resultado == 0) {
+    alert("seu numero é par")
+} else if(resultado == 1) {
+    alert("seu numero é impar")
+}
+}
+const buttonexercicio13 = document.getElementById("exercicio13")
+buttonexercicio13.addEventListener('click', () => { exercicio13()})
+
+// atividade 14
+function exercicio14() {
+    const numero1 = Number(prompt("digite um numero"))
+const numero2 = Number(prompt("digite outro numero"))
+
+if (numero1 < numero2) {
+    alert("O numero 2 é maior que o numero 1")
+} else if (numero2 < numero1) {
+    alert("O numero 1 é maior que o numero 2")
+}
+}
+const buttonexercicio14 = document.getElementById("exercicio14")
+buttonexercicio14.addEventListener('click', () => { exercicio14()})
+
+// atividade 15
+function exercicio15() {
+    
 }
