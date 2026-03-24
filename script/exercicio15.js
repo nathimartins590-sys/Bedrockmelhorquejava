@@ -7,12 +7,13 @@ if(renda* 0.05 * dependente) {
 }
 
 if(renda* 0.10) {
-    alert("voce recebera")
-} else if(renda*0.10) {
+
     alert("voce recebera")
 } else if(renda* 0.15) {
+
     alert("voce recebera")
 } else if(renda* 0.20) {
+    
     alert("voce recebera")
 }
 
