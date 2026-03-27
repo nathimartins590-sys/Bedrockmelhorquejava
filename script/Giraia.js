@@ -211,5 +211,26 @@ buttonexercicio14.addEventListener('click', () => { exercicio14()})
 
 // atividade 15
 function exercicio15() {
+  const CPF = Number(prompt("digite seu CPF"))
+const dependente = Number(prompt("digite numero de dependentes"))
+const renda = Number(prompt("digite sua renda"))
+
+if(dependente>0.05*1621) {
+    alert("voce recebera " + renda* 0.05 * dependente)
+}
+
+if(renda<= 2*1621) {
+    alert("voce n paga imposto")
+} else if(renda<3*1621) {
+    alert("voce pagara "+renda* 0.15)
+} else if(renda<5*1621) {
+    alert("voce pagara "+renda* 0.20)
+}  
+}
+const buttonexercicio15 = document.getElementById("exercicio15")
+buttonexercicio15.addEventListener('click', () => { exercicio15()})
+
+// atividade 16
+function exercicio16() {
     
 }
