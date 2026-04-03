@@ -232,5 +232,16 @@ buttonexercicio15.addEventListener('click', () => { exercicio15()})
 
 // atividade 16
 function exercicio16() {
+    const custo = Number(prompt("Digite o custo da fábricação de um carro:"))
+const distribuidor = custo * 1.28
+const imposto = distribuidor * 0.45
+
+alert("O seu lucro com os impostos será: "+[imposto])
+}
+const buttonexercicio16 = document.getElementById("exercicio16")
+buttonexercicio16.addEventListener('click', () => { exercicio16()})
+
+// atividade 17
+function exercicio17() {
     
 }
